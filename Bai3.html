@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai3</title>
+</head>
+
+<body>
+<p id="lonhon_0"></p>
+</body>
+<script>
+let so= +prompt("Nhap so nguyen:")
+if (so > 0) {
+    document.getElementById("lonhon_0").innerHTML = ` ${so} > 0`
+} else if (so < 0) {
+    document.getElementById("lonhon_0").innerHTML = ` ${so} < 0`
+} else if (so == 0) {
+    document.getElementById("lonhon_0").innerHTML = ` ${so} = 0`
+}
+</script>
+
+</html>
